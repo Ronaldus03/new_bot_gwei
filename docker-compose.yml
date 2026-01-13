@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  bot:
+    build: .
+    container_name: new_bot_gwei
+    restart: always
+    env_file:
+      - .env
