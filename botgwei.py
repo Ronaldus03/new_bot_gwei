@@ -77,7 +77,7 @@ async def gasstart(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     context.job_queue.run_repeating(
         gas_job,
-        interval=10,   # update tiap 10 detik
+        interval=15,   # update tiap 10 detik
         first=1,
         chat_id=chat_id,
         name=str(chat_id)
