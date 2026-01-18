@@ -3,7 +3,7 @@ version: "3.9"
 services:
   bot:
     build: .
-    container_name: new_bot_gwei
+    container_name: new_bot_gwei_2
     restart: always
     env_file:
       - .env
